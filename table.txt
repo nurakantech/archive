@@ -1,0 +1,13 @@
+-- Database name nurakan
+--
+-- Table structure for table `blog`
+--
+
+CREATE TABLE IF NOT EXISTS `blog` (
+  `id` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `title` varchar(128) NOT NULL,
+  `post` text NOT NULL,
+  `dateposted` datetime NOT NULL,
+  `userid` mediumint(9) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 COMMENT='Blogs table' AUTO_INCREMENT=31 ;
